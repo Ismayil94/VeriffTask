@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://demo.saas-3.veriff.me",
+    "experimentalSourceRewriting": true,
+    "chromeWebSecurity": false,
+    "testFiles": "**/*.feature",
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": false,
+        "inlineAssets": true
+    },
+    "video": false
+}

@@ -1,0 +1,29 @@
+{
+  "name": "veriff",
+  "version": "1.0.0",
+  "description": "Task from Veriff",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test-report": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ismayil94/Veriff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ismayil94/Veriff/issues"
+  },
+  "homepage": "https://github.com/Ismayil94/Veriff#readme",
+  "devDependencies": {
+    "cypress": "9.7",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "iso-639-1": "^2.1.15"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
