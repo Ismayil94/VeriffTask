@@ -1,4 +1,4 @@
-# Veriff task for Testing Engineer
+# Veriff task for Senior QA Engineer
 ---
 
 ## Task Description
